@@ -129,17 +129,20 @@ li a:hover {
 .aliCon {
     left: 15px;
 }
-
+.padTop50 {
+    padding-top: 50px;
+}
 .padTopBot100 {
     padding: 100px 0 100px 0;
 }
+
 
 .glphs {
     width: 100%
 }
 
 .ta-weight {
-    font-weight: 500
+    font-weight: 700;
 }
 
 .xl-siz {
@@ -148,7 +151,14 @@ li a:hover {
 }
 
 .bolds {
-    font-weight: 700
+    font-weight: 700 !important;
+}
+
+.co1 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
 }
 
 .ta {
@@ -157,6 +167,7 @@ li a:hover {
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    font-size: 14px
 }
 
 .ta-btn {
@@ -245,6 +256,12 @@ li a:hover {
     padding: 100px 0 100px 0;
 }
 
+.padTopBot100-50n {
+    padding: 0;
+}
+.padTop10{
+    padding-top:10px
+}
 .relative {
     position: relative;
 }
@@ -331,17 +348,6 @@ li a:hover {
     opacity: 1;
 
 }
-
-/* 
-
-body {
-	padding: 0;
-	margin: 0;
-	background: #f2f6e9;
-}
-
-/*--- navigation bar ---*/
-
 .navbar {
     background: transparent
 }
@@ -385,7 +391,7 @@ body {
 }
 
 @media (max-width: 575.98px) {
-    
+
 
     .padTopBot100-50 {
         padding: 50px 0 50px 0;
@@ -411,10 +417,12 @@ body {
         font: SemiBold 15px/20px Montserrat;
         letter-spacing: 0.15px;
         opacity: 1;
-        color: #C6C6D4!important;
+        color: #C6C6D4 !important;
         text-align: center
     }
-    li a.nav-link:hover,li a.nav-link:active {
+
+    li a.nav-link:hover,
+    li a.nav-link:active {
         color: #5F41B6 !important;
         font-weight: 800;
     }
@@ -434,31 +442,13 @@ body {
         border: none;
     }
 
+    .ta-cnt {
+        font-size: 13px;
+        color: white;
+    }
+    .nSq{
+        padding: 0
+    }
 
-}
 
-/*--- header ---*/
-/* 
-.header {
-    background-image: url('images/header-background.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.6);
-}
-
-.description {
-    left: 50%;
-    position: absolute;
-    top: 45%;
-    transform: translate(-50%, -55%);
-    text-align: center;
 }
